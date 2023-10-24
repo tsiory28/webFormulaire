@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    font-family: "Montserrat";
+    color: antiquewhite;
+    font-size: 5.2vw;
+    margin-top: 2vw;
+  text-align: center;
+}
+.tableau1{
+    border-radius: 10vw;
+    color: chocolate;
+    background-color: brown;
+    display: flex;
+    position: relative;
+    left: 17vw;
+    justify-content: center;
+    align-items: 30vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    height: 50vw;
+    width: 65vw;
+}
+.tableau1 .aona{
+    display: flex;
+    height:20vw;
+    width:20vw;
+    padding-top: 5.5vw;
+    position: relative;
+    justify-content: center;
+    left: 5vw;
+}
+.tableau1 .aona1{
+    display: flex;
+    height:29.5;
+    width:26vw;
+    padding-top: 10vw;
+    background-size:330vw;
+    background-color: chocolate;
+    border-radius: 0vw 6vw 6vw 0vw;
+    position: relative;
+    left: 2vw;
+}
+.aona1 form input{
+    border-radius:10vw;
+    margin-top: .7vw;   
+    height:3vw;
+    width: 20vw;
+}
+i{
+    color: brown;
+    font-size: 10vw;
+}   
+#a{
+    width: 16vw;
+    position: relative;
+    right: 2vw;
+    background-color:brown;
+    border-color: burlywood;
+
+}
+
+#b{
+    display: flex;
+    border-radius: 7.7vw;
+    position: relative;
+    left:2.5vw;
+    background-color:rgb(122, 50, 24);
+}
+#c{
+    display: flex;
+    position: relative;
+    background-color: brown;
+    left: 75vw;
+    bottom: 21.5vw;
+    border-radius: 7.7vw;
+}
+#b1{
+    display: flex;
+    border-radius: 7.7vw;
+    position:relative;
+    left: 3vw;
+    background-color:brown;
+}
+#c1{
+    display: flex;
+    position: relative;
+    left: 75vw;
+    bottom: 15vw;
+    background-color:rgb(122, 50, 24);
+    border-radius: 7.7vw;
+}
+body{
+    background-image: url(../photo/background_inscription.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Montserrat";
+
+}
+#a2{
+  background-image: url(../photo/sary.jpg);
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5vw;
+    bottom: 0;    
+}
+#a2:hover{
+    animation: tsinjaka .5s linear alternate;
+    box-shadow:5px 6px 4px gray;
+    transition: .3s all;
+}
+@keyframes tsinjaka{
+    0%{
+        transform: perspective(l5vw);
+    }
+  25%{
+    transform: rotate(90deg) scale(1.5);
+    
+  }
+  50%{
+    transform: rotate(180deg) scale(2);
+  }
+    75%{
+        transform:rotate(270deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+/* .vatana{
+    width: 100vw;
+    height: 100vw;
+} */
+
+header .io .logo1{
+    background-image: url(../photo/logo1.jpeg);
+    background-size: contain;
+    border-radius: 5px 5vw 5px 5vw;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 18.5vw;
+}
+header .io .logo1:hover{
+    width: 16vw;
+    height: 20vw;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.5s all;
+}
+h2{
+    font-family: "Montserrat";
+}
+input{
+    padding: 1vw;
+}
+header .io .logo2{
+    background-image: url(../photo/logo2.jpeg);
+    background-size: contain;
+    background-position: center;
+    border-radius: 5vw 5px 5vw 5px;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 18.5vw;
+}
+header .io .logo2:hover{
+    width: 16vw;
+    height: 20vw;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.5s all;
+}
+#misa{
+    
+    background-position: center;
+    position: relative;
+    left: 57.5vw;
+    bottom: 20.5vw;
+    border-radius: 5vw 5px 5vw 5px;
+}
+#mit{
+    position: relative;
+    left: 3vw;
+    bottom: 20vw;
+    background-size: cover;
+    border-radius: 5vw 5px 5vw 5px;
+}  
+.sary1{
+    background-image: url(../photo/mita.jpeg);
+    background-size: contain;
+    background-position: center;
+    border-radius: 5vw 5px 5vw 5px;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 18.5vw;
+}
+.sary1:hover{
+    width: 16vw;
+    height: 20vw;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.5s all;
+}
+.sary2{
+    background-image: url(../photo/misa1.jpeg);
+    background-size: contain;
+    background-position: center;
+    border-radius: 5vw 5px 5vw 5px;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 18.5vw;
+}
+.sary2:hover{
+    width: 16vw;
+    height: 20vw;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.5s all;
+    display: flex;
+    
+  
+}
+.io{
+  display: flex;
+  justify-content: space-between;
+  padding: 10vw;
+}
